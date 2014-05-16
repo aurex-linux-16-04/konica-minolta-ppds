@@ -1,0 +1,13 @@
+Source: konica-minolta-ppds 
+Section: admin
+Priority: optional
+Maintainer: Sandra Villanueva Gavino <savilga@gmail.com> 
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.9.3
+
+Package: konica-minolta-ppds
+Architecture: all
+Depends: ${misc:Depends}
+Description: Ppds for Konica Minolta printers
+ The package installs ppds for Konica Minolta printers.
+
