@@ -85,7 +85,7 @@ restore
 *End
 
 *%-----   Installable Options   --------------------------------------------------
-*OpenGroup: InstallableOptions/Opciones de Instalación
+*OpenGroup: InstallableOptions/Opciones de InstalaciÃ³n
 
 *% -----  Optional Tray
 *OpenUI *OptionalBin/Fuente de papel Unidad: PickOne
@@ -112,7 +112,7 @@ restore
 *CloseUI: *Optionalfinisher
 
 *% -----  Optional Duplexer
-*OpenUI *Optionalduplexer/Unidad dúplex: Boolean
+*OpenUI *Optionalduplexer/Unidad dÃºplex: Boolean
 *DefaultOptionalduplexer: False
 *Optionalduplexer True/Activado: ""
 *Optionalduplexer False/Desactivado: ""
@@ -326,7 +326,7 @@ restore
 
 
 *%----------   Nearest Size and Scale
-*OpenUI *KMNearestSize/Tamaño y escala más cercano: Boolean
+*OpenUI *KMNearestSize/TamaÃ±o y escala mÃ¡s cercano: Boolean
 *OrderDependency: 5 AnySetup *KMNearestSize
 *DefaultKMNearestSize: False
 *KMNearestSize True/Activado: "<</DeferredMediaSelection false>> setpagedevice
@@ -337,7 +337,7 @@ restore
 *CloseUI: *KMNearestSize
 
 *%======  Resolution + Print Quality
-*OpenUI *Resolution/Resolución: PickOne
+*OpenUI *Resolution/ResoluciÃ³n: PickOne
 *OrderDependency: 10 AnySetup *Resolution
 *DefaultResolution: 600dpi
 *Resolution 600dpi/600dpi: "<< /HWResolution [600 600] >> setpagedevice
@@ -432,7 +432,7 @@ restore
 
 
 *%-----------   Manually Print on 2nd side
-*OpenUI *PrintOnBackside/Impresión manual de reverso: PickOne
+*OpenUI *PrintOnBackside/ImpresiÃ³n manual de reverso: PickOne
 *OrderDependency: 35 AnySetup *PrintOnBackside
 *DefaultPrintOnBackside: False
 *PrintOnBackside True/Activado: "<< /PrintOnBackside True >> setpagedevice"
@@ -440,7 +440,7 @@ restore
 *CloseUI: *PrintOnBackside
 
 *% ================== Paper Handling
-*OpenUI  *PageSize/Tamaño del papel: PickOne
+*OpenUI  *PageSize/TamaÃ±o del papel: PickOne
 *OrderDependency: 40 AnySetup *PageSize
 *DefaultPageSize: A4
 *PageSize Letter/Carta:		"<< /PageSize [612 792]>> setpagedevice"
@@ -464,9 +464,9 @@ restore
 *PageSize EnvC5/Sobre C5: 			"<< /PageSize [459 649]>> setpagedevice"
 *PageSize EnvC6/Sobre C6: 			"<< /PageSize [323 459]>> setpagedevice"
 *PageSize EnvMonarch/Sobre Monarch: 		"<< /PageSize [279 540]>> setpagedevice"
-*PageSize EnvChou3/Sobre Chou nº 3: 		"<< /PageSize [340 666]>> setpagedevice"
-*PageSize EnvChou4/Sobre Chou nº 4: 		"<< /PageSize [255 581]>> setpagedevice"
-*PageSize EnvYou4/Sobre You nº 4: 		"<< /PageSize [298 666]>> setpagedevice"
+*PageSize EnvChou3/Sobre Chou nÂº 3: 		"<< /PageSize [340 666]>> setpagedevice"
+*PageSize EnvChou4/Sobre Chou nÂº 4: 		"<< /PageSize [255 581]>> setpagedevice"
+*PageSize EnvYou4/Sobre You nÂº 4: 		"<< /PageSize [298 666]>> setpagedevice"
 *PageSize JPostcard/Postal japonesa: 		"<< /PageSize [284 419]>> setpagedevice"
 *PageSize DoublePostcardRotated/Postal japonesa D:"<< /PageSize [420 567]>> setpagedevice"
 *PageSize 16K/16K: 				"<< /PageSize [553 765]>> setpagedevice"
@@ -565,9 +565,9 @@ exch
 *PageRegion EnvC5/Sobre C5: 				                "<< /PageSize [459 649]>> setpagedevice"
 *PageRegion EnvC6/Sobre C6: 				                "<< /PageSize [323 459]>> setpagedevice"
 *PageRegion EnvMonarch/Sobre Monarch: 		            "<< /PageSize [279 540]>> setpagedevice"
-*PageRegion EnvChou3/Sobre Chou nº 3: 		                "<< /PageSize [340 666]>> setpagedevice"
-*PageRegion EnvChou4/Sobre Chou nº 4: 		                "<< /PageSize [255 581]>> setpagedevice"
-*PageRegion EnvYou4/Sobre You nº 4: 		                "<< /PageSize [298 666]>> setpagedevice"
+*PageRegion EnvChou3/Sobre Chou nÂº 3: 		                "<< /PageSize [340 666]>> setpagedevice"
+*PageRegion EnvChou4/Sobre Chou nÂº 4: 		                "<< /PageSize [255 581]>> setpagedevice"
+*PageRegion EnvYou4/Sobre You nÂº 4: 		                "<< /PageSize [298 666]>> setpagedevice"
 *PageRegion JPostcard/Postal japonesa: 		            "<< /PageSize [284 419]>> setpagedevice"
 *PageRegion DoublePostcardRotated/Postal japonesa D:	"<< /PageSize [420 567]>> setpagedevice"
 *PageRegion 16K/16K: 					            "<< /PageSize [553 765]>> setpagedevice"
@@ -643,9 +643,9 @@ restore
 *ImageableArea EnvC5/Sobre C5:				                "12 12 447 637"
 *ImageableArea EnvC6/Sobre C6:	 			                "12 12 311 447"
 *ImageableArea EnvMonarch/Sobre Monarch:		                "12 12 267 528"
-*ImageableArea EnvChou3/Sobre Chou nº 3:	 	                "12 12 328 654"
-*ImageableArea EnvChou4/Sobre Chou nº 4:	 	                "12 12 243 569"
-*ImageableArea EnvYou4/Sobre You nº 4:		                    "12 12 286 654"
+*ImageableArea EnvChou3/Sobre Chou nÂº 3:	 	                "12 12 328 654"
+*ImageableArea EnvChou4/Sobre Chou nÂº 4:	 	                "12 12 243 569"
+*ImageableArea EnvYou4/Sobre You nÂº 4:		                    "12 12 286 654"
 *ImageableArea JPostcard/Postal japonesa:	 	                "12 12 272 407"
 *ImageableArea DoublePostcardRotated/Postal japonesa D:    "12 12 408 555"
 *ImageableArea 16K/16K: 				                "12 12 541 753"
@@ -684,9 +684,9 @@ restore
 *PaperDimension EnvC5/Sobre C5:				                "459 649"
 *PaperDimension EnvC6/Sobre C6:	 			                "323 459"
 *PaperDimension EnvMonarch/Sobre Monarch:		                "279 540"
-*PaperDimension EnvChou3/Sobre Chou nº 3:	 	                "340 666"
-*PaperDimension EnvChou4/Sobre Chou nº 4:	 	                "255 581"
-*PaperDimension EnvYou4/Sobre You nº 4:		                "298 666"
+*PaperDimension EnvChou3/Sobre Chou nÂº 3:	 	                "340 666"
+*PaperDimension EnvChou4/Sobre Chou nÂº 4:	 	                "255 581"
+*PaperDimension EnvYou4/Sobre You nÂº 4:		                "298 666"
 *PaperDimension JPostcard/Postal japonesa:	 	            "284 419"
 *PaperDimension DoublePostcardRotated/Postal japonesa D:   "420 567"
 *PaperDimension 16K/16K: 				                "553 765"
@@ -719,10 +719,10 @@ restore
 *CloseUI: *Collate
 
 *%-----------   Duplex Option
-*OpenUI *Duplex/Opciones de Dúplex: PickOne
+*OpenUI *Duplex/Opciones de DÃºplex: PickOne
 *OrderDependency: 62 AnySetup *Duplex
 *DefaultDuplex: None
-*Duplex None/Transmisión simple: "<</Duplex false /Tumble false>> setpagedevice"
+*Duplex None/TransmisiÃ³n simple: "<</Duplex false /Tumble false>> setpagedevice"
 *Duplex DuplexNoTumble/Borde largo:"<</Duplex true /Tumble false>> setpagedevice"
 *Duplex DuplexTumble/Borde corto:"<</Duplex true /Tumble true>> setpagedevice"
 *?Duplex: "save
@@ -780,9 +780,9 @@ restore
 *CloseGroup: *KMTextOptions
 
 *%---------   Graphics Options Group
-*OpenGroup: *KMGraphicsOptions/Opciones de gráfico
+*OpenGroup: *KMGraphicsOptions/Opciones de grÃ¡fico
 
-*OpenUI *KMGraphicsHalftones/Semitono de gráfico: PickOne
+*OpenUI *KMGraphicsHalftones/Semitono de grÃ¡fico: PickOne
 *OrderDependency: 93 AnySetup *KMGraphicsHalftones
 *DefaultKMGraphicsHalftones: Detail
 *KMGraphicsHalftones UltraDetail/Line Art: "statusdict /sethalftoneex known {statusdict begin 3 2 sethalftoneex end} if"
@@ -792,7 +792,7 @@ restore
 
 *CloseGroup: *KMGraphicsOptions
 
-*OpenUI *KMEconoMode/Impresión económica: Boolean
+*OpenUI *KMEconoMode/ImpresiÃ³n econÃ³mica: Boolean
 
 *OrderDependency: 104 AnySetup *KMEconoMode
 *DefaultKMEconoMode: False

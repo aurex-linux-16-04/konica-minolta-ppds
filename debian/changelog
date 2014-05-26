@@ -1,3 +1,9 @@
+konica-minolta-ppds (0.2) precise; urgency=low
+
+  * Change character encoding to UTF-8
+
+ -- Sandra Villanueva Gavino <savilga@gmail.com>  Mon, 26 May 2014 12:44:57 +0200
+
 konica-minolta-ppds (0.1) precise; urgency=low
 
   * Initial release. 
