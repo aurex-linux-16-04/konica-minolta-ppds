@@ -1,3 +1,10 @@
+konica-minolta-ppds (0.3) precise; urgency=low
+
+  * Added new ppd file (P4650PX_DUPLEX.ppd) for printers
+    with duplex unit.
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 16 Jul 2014 13:19:06 +0200
+
 konica-minolta-ppds (0.2) precise; urgency=low
 
   * Change character encoding to UTF-8
