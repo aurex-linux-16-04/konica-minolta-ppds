@@ -1,3 +1,9 @@
+konica-minolta-ppds (0.4) trustry; urgency=medium
+
+  * Rebuild for aurex 14.04 trusty
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 29 Aug 2014 03:07:59 +0200
+
 konica-minolta-ppds (0.3) precise; urgency=low
 
   * Added new ppd file (P4650PX_DUPLEX.ppd) for printers
