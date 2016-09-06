@@ -1,3 +1,9 @@
+konica-minolta-ppds (0.5) xenial; urgency=medium
+
+  * Rebuild for aurex 16.04 xenial
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 06 Sep 2016 16:12:32 +0200
+
 konica-minolta-ppds (0.4) trustry; urgency=medium
 
   * Rebuild for aurex 14.04 trusty
